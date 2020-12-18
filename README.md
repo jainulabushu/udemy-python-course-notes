@@ -62,6 +62,15 @@ Pi is approximately 3.14285714285714279370154144999105483293533325195312
 
 Process finished with exit code 0
 
+37. Python 2 string interpolation
+
+age = 21
+print("My age is %d years." % age) # %d is also one of the replacement method in string
+
+C:\Users\ELCOT\venv\Python3.9\Scripts\python.exe C:/Users/ELCOT/IdeaProjects/HelloWorld/sliceback.py
+My age is 21 years.
+
+Process finished with exit code 0
 
 
 
