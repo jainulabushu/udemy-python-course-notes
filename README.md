@@ -86,6 +86,17 @@ My age is twent one years.
 
 Process finished with exit code 0
 
+age = 21
+minor = 'months'
+major = 'years'
+print('my age is %d %s and %d %s' %(age, major, 6, minor))
+print('pi is approximately %f' %(22/7))
+
+C:\Users\ELCOT\venv\Python3.9\Scripts\python.exe C:/Users/ELCOT/IdeaProjects/HelloWorld/sliceback.py
+my age is 21 years and 6 months
+pi is approximately 3.142857
+
+Process finished with exit code 0
 
 
 
