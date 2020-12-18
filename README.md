@@ -33,3 +33,52 @@ in string formating replacement
 :^ centered allaign
 
 In between string {} uses to store 0, 1, 2.. and we use .format operater to replace the numbers 0, 1, 2 to anything we want
+
+print("Pi is aproximately {0:12}".format(22/7))  #general formate, default to print 15 digit decimal values
+print("Pi is aproximately {0:12f}".format(22/7))  #when we sqecify the floating point, we get default 6 decimals
+print("Pi is aproximately {0:12.50f}".format(22/7))
+print("Pi is aproximately {0:52.50f}".format(22/7))
+print("Pi is aproximately {0:62.50f}".format(22/7))
+print("Pi is aproximately {0:<72.50f}".format(22/7))
+print("Pi is aproximately {0:<72.54f}".format(22/7))
+
+C:\Users\ELCOT\venv\Python3.9\Scripts\python.exe C:/Users/ELCOT/IdeaProjects/HelloWorld/sliceback.py
+Pi is aproximately 3.142857142857143
+Pi is aproximately     3.142857
+Pi is aproximately 3.14285714285714279370154144999105483293533325195312
+Pi is aproximately 3.14285714285714279370154144999105483293533325195312
+Pi is aproximately           3.14285714285714279370154144999105483293533325195312
+Pi is aproximately 3.14285714285714279370154144999105483293533325195312                    
+Pi is aproximately 3.142857142857142793701541449991054832935333251953125000                
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
