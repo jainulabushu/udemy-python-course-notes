@@ -72,6 +72,19 @@ My age is 21 years.
 
 Process finished with exit code 0
 
+age = 21
+string = 'twent one'
+float = 21.04
+print("My age is %d years." % age)      # %d int value replacement in string
+print("My age is %f years." % age)      # %f is floate value replacement in string
+print("My age is %s years." % string)   # %s is string, int, float mostly any value replacement in string
+
+C:\Users\ELCOT\venv\Python3.9\Scripts\python.exe C:/Users/ELCOT/IdeaProjects/HelloWorld/sliceback.py
+My age is 21 years.
+My age is 21.000000 years.
+My age is twent one years.
+
+Process finished with exit code 0
 
 
 
