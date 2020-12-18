@@ -53,9 +53,14 @@ Pi is aproximately 3.142857142857142793701541449991054832935333251953125000
 
 Process finished with exit code 0
 
+36. f-strings
 
+print(f"Pi is approximately {22/7:.50f}")
 
+C:\Users\ELCOT\venv\Python3.9\Scripts\python.exe C:/Users/ELCOT/IdeaProjects/HelloWorld/sliceback.py
+Pi is approximately 3.14285714285714279370154144999105483293533325195312
 
+Process finished with exit code 0
 
 
 
